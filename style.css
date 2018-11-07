@@ -1,7 +1,5 @@
 
-body {
-	background-color: grey;
-}
+
 
 h1 {
 	text-align: center;
@@ -43,5 +41,44 @@ border-radius: 5px;
 
 .modal-footer {
 	position: center;
+}
+
+.section {
+  padding: 100px 10px;
+  background: #D8BBA9;
+}
+
+.section h3 {
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.section h4 {
+  font-size: 20px;
+}
+
+.section p {
+  font-size: 14px;
+}
+
+.van-picture {
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.card {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.contact {
+  color:white;
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align:center;
+  background: #5B5964;
+  padding: 20px;
 }
 
