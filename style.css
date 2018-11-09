@@ -1,51 +1,56 @@
-
-
-
-h1 {
-	text-align: center;
-	font-size: 40px;
+p {
+  text-align: center;
+  font-size: 25px;
 }
 
-h2 {
-	justify-content:flex-end;
-
+.inscription {
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
 }
 
-img{
-	size: 20px;
-}
-
-.flex{
-	display: flex;
-	justify-content: space-around;
-}
-
-.head{
-	background-image: url("https://i.ytimg.com/vi/T3UGvz-AG2w/maxresdefault.jpg");
-	padding: 80px;
-	height: 350px;
+#banner{
+  text-align: center;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.6), rgba(0,0,0,0.12)), url("https://i.ytimg.com/vi/T3UGvz-AG2w/maxresdefault.jpg");
+	background-size: cover;
+  padding: 80px;
+	height: 450px;
 	font-family: 'Montserrat Alternates', sans-serif;
-	color:#279AAF;
+	color:white;
 }
 
-#relative {
-position: relative;
-}
-#absolute {
-background:white;
-position: absolute;
-top:10px;
-left:10px;
-border-radius: 5px;
+#banner img {
+  background:white;
+  position: absolute;
+  top:10px;
+  left:10px;
+  border-radius: 5px;
 }
 
-.modal-footer {
-	position: center;
+
+
+.nav-item{
+  top: 10px;
+  right: 10px;
 }
+}
+
+#banner button-blue {
+  color: black;
+}
+
+#banner h1, #banner p {
+  text-shadow: 1px 1px 3px black;
+  margin-bottom: 30px;
+}
+
+.button-blue {
+  background-color: #000000;
+}
+
 
 .section {
   padding: 100px 10px;
-  background: #D8BBA9;
+  background: #C2C9C2;
 }
 
 .section h3 {
@@ -74,11 +79,32 @@ border-radius: 5px;
   margin-bottom: 20px;
 }
 
+.inscription {
+  background-color: #9C9D97;
+}
+
 .contact {
   color:white;
   font-family: 'Montserrat Alternates', sans-serif;
   text-align:center;
-  background: #5B5964;
+  background: #3B3B1F;
   padding: 20px;
 }
+
+#footer{
+  padding: 10px;
+  background: grey;
+  color: white;
+  text-align: center;
+}
+
+#footer a {
+  color: white;
+  font-size: 40px;
+}
+
+#footer a:hover {
+  color: white;
+}
+
 
