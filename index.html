@@ -6,29 +6,28 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:500" rel="stylesheet">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
- <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 </head>
 <body>
-	<div id="banner">
-		  <h1>Partir pour un tour du monde en van</h1>
-      <p>Louez le van adapté à votre voyage</p>
-      <a href="#" target="_blank" class="btn btn-info btn-lg button-blue">Louer un van</a>
-			<img id="logo" src="images/Logo.png"> 
-  <ul class="nav justify-content-end">
+
+<div id="banner" id="relative">
+	<h1>Partir pour un tour du monde en van</h1>
+  <p>Louez le van adapté à votre voyage</p>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+  Louer un van
+  </button>
+  <img id="logo" src="images/Logo.png"> 
+  <ul class="nav justify-content-end" id="absolute">
     <li class="nav-item">
       <a class="nav-link active" href="#">Connexion</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+    <li class="nav-item"> 
+      <a class="nav-link disabled" href="#Contactez-nous">Aide</a>
     </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" href="#">Aide</a>
-    </li>
-</ul>
-  </div>
+  </ul>
+</div>
 
 
 <!-- Modal -->
@@ -36,80 +35,80 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalCenterTitle">Plannifier</h5>
+        <h5 class="modal-title" id="exampleModalCenterTitle">Avant de louer</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        ...
+        Gardez à l'esprit qu'un tour du monde ne se résume pas à louer un van, une longue préparation est nécessaire avant votre voyage.
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Retour</button>
+        <button type="button" class="btn btn-primary">Continuer</button>
       </div>
     </div>
   </div>
 </div>
 
 
-   <div class="section text-center">
-      <h3>Choisissez votre van</h3>
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <h4>Combi Volswagen électrique</h4>
-              <p>Combi Volswagen électrique</p>
-              <img class="van-picture" src="images/Van VW 2.jpg" alt="italian van picture">
-              <a href="#" class="btn btn-info">Louer</a>
-            </div>
+<div class="section text-center">
+  <h3>Choisissez votre van</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h4>Combi Volkswagen électrique</h4>
+            <p>Voyagez en respectant l'environnement</p>
+            <img class="van-picture" src="images/Van VW 2.jpg" alt="italian van picture">
+            <a href="#" class="btn btn-info">Louer</a>
           </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <h5>Combi Volswagen T2B 1979</h5>
-              <p>Our best selection of mexican fajitas</p>
-              <img class="van-picture" src="images/Van VW3.jpg" alt="italian van picture">
-              <a href="#" class="btn btn-info">Louer</a>
-            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h5>Combi Volkswagen T2B 1979</h5>
+            <p>Plongez au coeur des années 70</p>
+            <img class="van-picture" src="images/Van VW3.jpg" alt="italian van picture">
+            <a href="#" class="btn btn-info">Louer</a>
           </div>
-            <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <h5>Combi Volswagen T2B 1979</h5>
-              <p>Our best selection of mexican fajitas</p>
-              <img class="van-picture" src="images/Van mercedez.jpg" alt="italian van picture">
-              <a href="#" class="btn btn-info">Louer</a>
-            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card">
+            <h5>Van Mecedez</h5>
+            <p>Un tour du monde tout confort</p>
+            <img class="van-picture" src="images/Van mercedez.jpg" alt="italian van picture">
+            <a href="#" class="btn btn-info">Louer</a>
           </div>
         </div>
       </div>
     </div>
+</div>
 
 <div class="inscription">
   <h7> S'inscrire </h7> 
- <form>
-  <div class="form-group row">
-    <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+  <form>
+    <div class="form-group row">
+      <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="colFormLabel" placeholder="votre adresse email">
+      </div>
     </div>
-  </div>
-</form>
+  </form>
 </div>
 
-<div class="contact">
+<div class="contact" id="Contactez-nous">
   <h8> Contactez-nous </h8>
   <a href="mailto:simon.jeanneton@kedgebs.com"> ENVOYER UN MAIL</a>
 </div>
 
 
 <div id="footer">
-    <ul class="list-inline">
-      <p>Suivez-nous</p>
-      <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-      <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
-      <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
-    </ul>
+  <ul class="list-inline">
+    <p>Suivez-nous</p>
+    <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+    <li class="list-inline-item"><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+    <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+  </ul>
 ></div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

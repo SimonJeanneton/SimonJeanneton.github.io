@@ -3,6 +3,12 @@ p {
   font-size: 25px;
 }
 
+.btn {
+  font-family: 'Montserrat Alternates', sans-serif;
+  margin: 20px;
+}
+
+}
 .inscription {
   font-family: 'Montserrat Alternates', sans-serif;
   text-align: center;
@@ -27,12 +33,16 @@ p {
 }
 
 
+#relative{
+  position: relative;
+}
 
-.nav-item{
-  top: 10px;
-  right: 10px;
+#absolute{
+  position: absolute;
+  top:10px;
+  right:10px;
 }
-}
+
 
 #banner button-blue {
   color: black;
@@ -80,7 +90,12 @@ p {
 }
 
 .inscription {
+  text-align: center;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 20px;
   background-color: #9C9D97;
+  padding: 20px;
+
 }
 
 .contact {
